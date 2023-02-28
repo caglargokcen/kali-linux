@@ -1,5 +1,7 @@
 # Kali Linux
 
+<br>
+
 - Root Password Recovery Nedir?
 - File Operations Nedir?
 - File Archiving Nedir?
@@ -23,6 +25,8 @@
 <br>
 
 # Root Password Recovery Nedir?
+
+<br>
 
 Kali Linux oturum açma ekranı üzerinden e tuşuna basılır.
 
@@ -63,6 +67,8 @@ Belirlemiş olduğunuz şifre ile Kali Linux üzerinden root kullanıcısı ile 
 
 # File Operations Nedir?
 
+<br>
+
 Dosya oluşturmak için aşağıdaki komut kullanılır.
 
 ```sh
@@ -70,7 +76,6 @@ sudo touch /home/kali/Documents/Linux
 ```
 
 ![File Operations Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/file-archiving-directory-permissions-operations/01.png)
-
 
 
 
