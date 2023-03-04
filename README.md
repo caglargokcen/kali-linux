@@ -1,45 +1,53 @@
-# Kali Linux
+<h1 align="left">
+Kali Linux
+</h1>
+
+<h1 align="left">
+🚀🚀🚀
+</h1>
 
 <br>
+<br>
 
-- Root Password Recovery Nasıl Yapılır?
-- File Operations Nasıl Yapılır?
-- File Archiving Nasıl Yapılır?
-- Directory Operations Nasıl Yapılır?
-- File and Directory Permission Management Nasıl Yapılır?
-- PAM Nedir?
-- PAM Nasıl Yapılır?
-- User Management Nasıl Yapılır?
-- Group Management Nasıl Yapılır?
-- Removing User From Group Nasıl Yapılır?
-- Delete Group Nasıl Yapılır?
-- Delete User Nasıl Yapılır?
-- Network Management Nedir?
-- Network Management Nasıl Yapılır?
-- Static IP Nedir?
-- Static IP Assignment Nasıl Yapılır?
-- Dynamic IP Nedir?
-- Dynamic IP Assignment Nasıl Yapılır?
-- Nginx Nedir?
-- Nginx Installation Nasıl Yapılır?
-- SSH Nedir?
-- Encrypted Connection with SSH Nasıl Yapılır?
-- SSH Copy ID Nedir?
-- Passwordless Connection with SSH Copy ID Nasıl Yapılır?
-- Cron Nedir?
-- Rsync Nedir?
-- Passwordless Automatic File Copy with Cron-Rsync Nasıl Yapılır?
-- LVM Nedir?
-- Commands Used in LVM and Their Tasks Nedir?
-- LV Nasıl Oluşturulur?
-- CIFS Protokolü Nedir?
-- NFS Protokolü Nedir?
-- File Sharing Between Kali Linux and Windows Nasıl Yapılır?
-- Process Management Nedir?
-- Process Management Nasıl Yapılır?
-- Environment Variables Nedir?
-- Environment Variables Nasıl Yapılır?
+- [[#Root Password Recovery Nasıl Yapılır?]]
+- [[#File Operations Nasıl Yapılır?]]
+- [[#File Archiving Nasıl Yapılır?]]
+- [[#Directory Operations Nasıl Yapılır?]]
+- [[#File and Directory Permission Management Nasıl Yapılır?]]
+- [[#PAM Nedir?]]
+- [[#PAM Nasıl Yapılır?]]
+- [[#User Management Nasıl Yapılır?]]
+- [[#Group Management Nasıl Yapılır?]]
+- [[#Removing User From Group Nasıl Yapılır?]]
+- [[#Delete Group Nasıl Yapılır?]]
+- [[#Delete User Nasıl Yapılır?]]
+- [[#Network Management Nedir?]]
+- [[#Network Management Nasıl Yapılır?]]
+- [[#Static IP Nedir?]]
+- [[#Static IP Assignment Nasıl Yapılır?]]
+- [[#Dynamic IP Nedir?]]
+- [[#Dynamic IP Assignment Nasıl Yapılır?]]
+- [[#Nginx Nedir?]]
+- [[#Nginx Installation Nasıl Yapılır?]]
+- [[#SSH Nedir?]]
+- [[#Encrypted Connection with SSH Nasıl Yapılır?]]
+- [[#SSH Copy ID Nedir?]]
+- [[#Passwordless Connection with SSH Copy ID Nasıl Yapılır?]]
+- [[#Cron Nedir?]]
+- [[#Rsync Nedir?]]
+- [[#Passwordless Automatic File Copy with Cron-Rsync Nasıl Yapılır?]]
+- [[#LVM Nedir?]]
+- [[#Commands Used in LVM and Their Tasks Nedir?]]
+- [[#LV Nasıl Oluşturulur?]]
+- [[#CIFS Protokolü Nedir?]]
+- [[#NFS Protokolü Nedir?]]
+- [[#File Sharing Between Kali Linux and Windows Nasıl Yapılır?]]
+- [[#Process Management Nedir?]]
+- [[#Process Management Nasıl Yapılır?]]
+- [[#Environment Variables Nedir?]]
+- [[#Environment Variables Nasıl Yapılır?]]
 
+<br>
 <br>
 
 ## Root Password Recovery Nasıl Yapılır?
@@ -1703,7 +1711,7 @@ Dosya içerisinde düzenleme yapmak için aşağıdaki araç kullanılır.
 Her gün saat 3:25’de otomatik olarak linuxlpt bilgisayarına nginx dosyasının kopyalanması için aşağıdaki komut yazılır. Daha sonra ctrl + x tuş kombinasyonunu kullanarak y tuşuna basıp enter tuşu ile kaydet diyerek pencereyi kapatabilirsiniz.
 
 ```
-25 3 * * * rsync -a /home/kali/nginx [kali@192.168.1.45:/home/linux/](mailto:kali@192.168.1.45:/home/linux/)
+25 3 * * * rsync -a /home/kali/nginx kali@192.168.1.45:/home/linux/
 ```
 
 ![Passwordless Automatic File Copy with Cron-Rsync Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cron-rsync/06.png)
@@ -1778,23 +1786,23 @@ Mantıksal hacimlerde aynı şekilde her biri eşit uzunlukta varsayılan değer
 
 <br>
 
-Sisteme diski veya bölümü fiziksel olarak tanıtmak için pvcreate komutu kullanılır.
-Fiziksel tanımlı diskleri ve bölümleri ekrana listelemek için pvdisplay komutu kullanılır.
-Fiziksel tanımlı diskin veya bölümün tanımını iptal etmek için pvremove komutu kullanılır.
-Hacim grubu oluşturmak için vgcreate komutu kullanılır.
-Hacim grubuna disk veya bölüm eklemek için vgextend komutu kullanılır.
-Hacim grubundan disk veya bölüm çıkartmak için vgreduce komutu kullanılır.
-Hacim grubunu kaldırmak için vgremove komutu kullanılır.
-Hacim grubunu listelemek için vgdisplay komutu kullanılır.
-Mevcut hacim grubunun ayarlarını bir dosyaya yedeklemek için vgcfgbackup komutu kullanılır. Ayrıca /etc/lvm/backup dizini altına yedeklenir.
-Mevcut hacim grubunun ayarlarını dosyadan düzenlemek için vgcfgrestore komutu kullanılır.
-Tanımlı mantıksal gruptan disk alanı oluşturmak için lvcreate komutu kullanılır.
-Mantıksal sürücüleri ekrana listelemek için lvdisplay komutu kullanılır.
-Mantıksal sürücüleri kaldırmak için lvremove komutu kullanılır.
-Tanımlı mantıksal sürücülerden blok silmek için lvreduce komutu kullanılır.
-Tanımlanmış mantıksal sürücüye blok eklemek için lvextend komutu kullanılır.
-LVM komutlarını ekrana açıklamasıyla beraber listelemek için lvm komutu kullanılır.
-Sistemdeki tüm diskleri listelemek için lvmdiskscan komutu kullanılır.
+- Sisteme diski veya bölümü fiziksel olarak tanıtmak için pvcreate komutu kullanılır.
+- Fiziksel tanımlı diskleri ve bölümleri ekrana listelemek için pvdisplay komutu kullanılır.
+- Fiziksel tanımlı diskin veya bölümün tanımını iptal etmek için pvremove komutu kullanılır.
+- Hacim grubu oluşturmak için vgcreate komutu kullanılır.
+- Hacim grubuna disk veya bölüm eklemek için vgextend komutu kullanılır.
+- Hacim grubundan disk veya bölüm çıkartmak için vgreduce komutu kullanılır.
+- Hacim grubunu kaldırmak için vgremove komutu kullanılır.
+- Hacim grubunu listelemek için vgdisplay komutu kullanılır.
+- Mevcut hacim grubunun ayarlarını bir dosyaya yedeklemek için vgcfgbackup komutu kullanılır. Ayrıca /etc/lvm/backup dizini altına yedeklenir.
+- Mevcut hacim grubunun ayarlarını dosyadan düzenlemek için vgcfgrestore komutu kullanılır.
+- Tanımlı mantıksal gruptan disk alanı oluşturmak için lvcreate komutu kullanılır.
+- Mantıksal sürücüleri ekrana listelemek için lvdisplay komutu kullanılır.
+- Mantıksal sürücüleri kaldırmak için lvremove komutu kullanılır.
+- Tanımlı mantıksal sürücülerden blok silmek için lvreduce komutu kullanılır.
+- Tanımlanmış mantıksal sürücüye blok eklemek için lvextend komutu kullanılır.
+- LVM komutlarını ekrana açıklamasıyla beraber listelemek için lvm komutu kullanılır.
+- Sistemdeki tüm diskleri listelemek için lvmdiskscan komutu kullanılır.
 
 <br>
 <br>
@@ -1922,31 +1930,560 @@ sudo apt install lvm2
 
 ![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/17.png)
 
+<br>
 
+Physical Volume oluşturmak için aşağıdaki komut kullanılır.
 
+```sh
+sudo pvcreate /dev/sdb1
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/18.png)
 
+<br>
 
+Volume Group oluşturmak için aşağıdaki komut kullanılır.
 
+```sh
+sudo vgcreate vg0 /dev/sdb1
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/19.png)
 
+<br>
 
+Logical Volume oluşturmak için aşağıdaki komut kullanılır.
 
+```sh
+sudo lvcreate -L 5G -n lv0 vg0
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/20.png)
 
+<br>
 
+Yukarıdaki komutu çalıştırabilmeniz için Volume Group’un PE boyutu 1279 olması gerektiği bilgisi verildi. Logical Volume oluşturmak için aşağıdaki komut kullanılır.
 
+```sh
+sudo lvcreate --extents 1279 --name lv0 vg0
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/21.png)
 
+<br>
 
+PV’yi listelemek için aşağıdaki komut kullanılır.
 
+```sh
+sudo pvdisplay
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/22.png)
 
+<br>
 
+VG’yi listelemek için aşağıdaki komut kullanılır.
 
+```sh
+sudo vgdisplay
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/23.png)
 
+<br>
 
+LV’yi listelemek için aşağıdaki komut kullanılır.
 
+```sh
+sudo lvdisplay
+```
 
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/24.png)
 
+<br>
+
+Her iki yeni bölümü bir dosya sistemiyle biçimlendirmek için aşağıdaki komut kullanılır.
+
+```sh
+sudo mkfs.ext4 /dev/vg0/lv0
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/25.png)
+
+<br>
+
+Disk kullanımı hakkında ayrıntılı bilgiye ulaşmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo df -h
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/26.png)
+
+<br>
+
+Diski sistemden ayırmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo umount /media/kali/788d4147-f1f8-4c7f-88f8-41f200089d1e
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/27.png)
+
+<br>
+
+Diski istediğiniz dizine mount etmeden önce yeni bir dizin oluşturmanız gerekiyor. Yeni bir dizin oluşturmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo mkdir /home/kali/Desktop/LVM
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/28.png)
+
+<br>
+
+Sisteminizi yeniden başlattığınız zamam otomatik bağlanmasını istediğiniz diskin UUID değerini kopyalamanız için aşağıdaki komut kullanılır.
+
+```sh
+sudo blkid /dev/vg0/lv0
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/29.png)
+
+<br>
+
+Sisteminizi yeniden başlattığınız zamam otomatik bağlanmasını istediğiniz diskinizi kalıcı olarak mount etmek için aşağıdaki komut kullanılır.
+
+```sh
+sudo nano /etc/fstab
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/30.png)
+
+<br>
+
+Aşağıdaki dosya üzerinden en alt satıra aşağıdaki kod satırı eklendikten sonra ctrl + x tuş kombinasyonunu kullanarak y tuşuna basıp enter tuşu ile kaydet diyerek pencereyi kapatabilirsiniz.
+
+```
+UUID=788d4147-f1f8-4c7f-88f8-41f200089d1e       /home/kali/Desktop/LVM  ext4    defaults 0 0
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/31.png)
+
+<br>
+
+Yukarıdaki fstab dosyasında bulunan satırlar sayesinde sistem yeniden başlatıldığı zaman belirtilen dosya sistemleri otomatik olarak sisteme eklenir. Sistem yeniden başlatıldığı zaman fstab dosyası içerisinde yer alan dosya sistemlerinin belirtilen şekilde bağlanması için aşağıdaki komut kullanılır.
+
+```sh
+sudo mount -a
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/32.png)
+
+<br>
+
+Sistem üzerindeki diskinizi aşağıdaki komutu kullanarak da bağlayabilirsiniz.
+
+```sh
+sudo mount /dev/mapper/vg0-lv0 /home/kali/Desktop/LVM
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/33.png)
+
+<br>
+
+Disk kullanımı hakkında ayrıntılı bilgiye ulaşmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo df -h
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/34.png)
+
+<br>
+
+Sisteminizde bulunan disk bölümlerini listelemek için aşağıdaki komut kullanılır.
+
+```sh
+sudo fdisk -l
+```
+
+![LV Nasıl Oluşturulur?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/lvm/35.png)
+
+<br>
+<br>
+
+## CIFS Protokolü Nedir?
+
+<br>
+
+Ağ sunucusu dosyalarını ve hizmetlerini istemek için açık ve platformlar arası bir mekanizma sağlayan bir dosya paylaşım protokolüdür. İnternet ve İntranet dosya paylaşımı için Microsoft'un Sunucu İleti Bloğu (SMB) protokolünün geliştirilmiş sürümünü temel alır.
+
+<br>
+<br>
+
+## NFS Protokolü Nedir?
+
+<br>
+
+Unix/Linux işletim sistemlerinin ortak bir dosya sistemine, yerel diskleri kadar kolay ulaşmasını sağlayan, RPC temelli dağıtık dosya sistemi yapısıdır. NFS sayesinde bir makinede yer alan belirli bir disk bölümü, başka makineler tarafından okunabilir ve yazılabilir. NFS, istemci-sunucu mantığı ile ve birden fazla kullanıcıyla eş zamanlı olarak dosyalar üzerinde çalışmaktadır.
+
+<br>
+<br>
+
+## File Sharing Between Kali Linux and Windows Nasıl Yapılır?
+
+<br>
+
+İlk öncelikle Windows üzerinden yeni bir klasör oluşturulur.
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/01.png)
+
+<br>
+
+Yeni oluşturduğunuz klasörü paylaşıma açmak için Sharing sekmesine tıklanır. Daha sonra Everyone grubu için Full Control izni verilir.
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/02.png)
+
+<br>
+
+Yeni oluşturduğunuz klasörün izinleri için Security sekmesine tıklanır. Daha sonra Everyone grubu için Full Control izni verilir.
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/03.png)
+
+<br>
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/04.png)
+
+<br>
+
+Windows üzerindeki arama kutucuğuna cmd yazarak Command Prompt penceresi açılır. Paylaşıma açtığınız yeni klasörü kontrol etmek için aşağıdaki komut kullanılır.
+
+```
+net share
+```
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/05.png)
+
+<br>
+
+Windows bilgisayarınızın IP adresini öğrenmek için aşağıdaki komut kullanılır.
+
+```
+ipconfig
+```
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/06.png)
+
+<br>
+
+Kali Linux üzerinden CIFS yardımcı programın paketini yüklemek için aşağıdaki komut kullanılır.
+
+```sh
+sudo apt install cifs-utils
+```
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/07.png)
+
+<br>
+
+Windows paylaşımı için bağlantı noktası olarak kullanılacak bir dizin oluşturmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo mkdir /mnt/shared
+```
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/08.png)
+
+<br>
+
+Paylaşımı bağlamak için aşağıdaki komut kullanılır. Daha sonra Windows bilgisayarınızdaki kullanıcı hesabınızın şifresi yazılır.
+
+```sh
+sudo mount -t cifs -o username=cloud //192.168.1.136/Shared /mnt/shared
+```
+
+<br>
+
+> -o username=cloud - Windows bilgisayarınızın kullanıcı hesap adı yazılır.
+> //192.168.1.136 - Windows bilgisayarınızın IP adresi yazılır.
+> /Shared - Windows bilgisayarı üzerinden paylaşıma açtığınız klasör adı yazılır.
+> /mnt/shared - Kali Linux bilgisayarı üzerinden paylaşıma açtığınız klasör adı yazılır.
+
+<br>
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/09.png)
+
+<br>
+
+Kali Linux ile Windows arasındaki dosya paylaşımını kontrol etmek için paylaşıma açtığınız klasör içerisine dosya oluşturulur. Dosya oluşturmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo touch linux /mnt/shared/
+```
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/10.png)
+
+<br>
+
+Böylelikle Kali Linux ile Windows arasındaki dosya paylaşımı başarılı bir şekilde tamamlanmış oldu.
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/11.png)
+
+<br>
+
+![File Sharing Between Kali Linux and Windows Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/cifs-nfs-protocol/12.png)
+
+<br>
+<br>
+
+## Process Management Nedir?
+
+<br>
+
+Sistemde çalışan her program en az bir Process'den oluşur. Bir Process ön planda veya arka planda çalışarak sistemin kaynaklarını kullanabilir.
+
+<br>
+
+**PID**
+
+Her Process diğerlerinden farklı Unique bir PID değerine sahiptir. Bazı komutlar sayesinde PID değerini bulduğunuz Process'leri sonlandırarak, arka planda gereksiz çalışan Process'lerin önüne geçmiş olursunuz.
+
+<br>
+<br>
+
+## Process Management Nasıl Yapılır?
+
+<br>
+
+Aşağıdaki komut tek başına kullanıldığında mevcut konsol üzerinden çalıştırılmış Process’leri verir.
+
+```sh
+ps
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/01.png)
+
+<br>
+
+Process’leri hiyerarşik bir biçimde görüntülemek için aşağıdaki komut kullanılır.
+
+```sh
+pstree
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/02.png)
+
+<br>
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/03.png)
+
+<br>
+
+Process’ler hakkında 3 saniyede bir yenilenecek şekilde anlık değişimleri görmek için aşağıdaki komut kullanılır.
+
+```sh
+top
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/04.png)
+
+<br>
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/05.png)
+
+<br>
+
+Process numarasını ve ismini görmek için aşağıdaki komut kullanılır.
+
+```sh
+sudo pgrep -l mousepad
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/06.png)
+
+<br>
+
+Process’leri PID numarasına göre sonlandırmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo kill 102637
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/07.png)
+
+<br>
+
+Process’leri isme göre sonlandırmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo killall mousepad
+```
+
+![Process Management Nedir?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/process-management/08.png)
+
+<br>
+<br>
+
+## Environment Variables Nedir?
+
+<br>
+
+Shell üzerinden herhangi bir komutu çalıştırmak için sırasıyla PATH Environment Variables dizinleri kontrol edilir. Komutun çalıştırılabilir dosyası PATH Environment Variables dizinlerinde varsa çalıştırabilirsiniz. PATH Environment Variables dizinlerinde yoksa çalıştıramazsınız.
+
+<br>
+<br>
+
+## Environment Variables Nasıl Yapılır?
+
+<br>
+
+PATH Environment Variables dizinlerini incelemek için aşağıdaki komut kullanılır.
+
+```sh
+sudo echo $PATH
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/01.png)
+
+<br>
+
+PATH Environment Variables üzerinden yeni bir program eklemek için aşağıdaki adımlar uygulanır.
+
+<br>
+
+Dizin oluşturmak için aşağıdaki komutlar kullanılır.
+
+```sh
+sudo mkdir Linux
+```
+
+```sh
+sudo mkdir Ubuntu
+```
+
+```sh
+sudo mkdir Debian
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/02.png)
+
+<br>
+
+Oluşturduğunuz dizinin en alt klasörü üzerinden mousepad programı çalıştırılır.
+
+```sh
+sudo mousepad
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/03.png)
+
+<br>
+
+Belge içeriğine aşağıdaki komut yazılır.
+
+```
+echo "Welcome!"
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/04.png)
+
+<br>
+
+Belgeyi farklı kaydet diyerek Robot.sh ismi ile kaydetmeniz gerekiyor.
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/05.png)
+
+<br>
+
+Karşınıza gelen pencereyi kapatabilirsiniz.
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/06.png)
+
+<br>
+
+Oluşturduğunuz Robot.sh dosyası bir betik dosyasıdır. Bu betik dosyası program yerine geçen bir formattır.
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/07.png)
+
+<br>
+
+PATH Environment Variables üzerinden ekleyeceğiniz dizini her oturum başlangıcında sistem tarafından otomatik olarak okunan bir dosya içeriğinde olmasını ve yaptığınız değişikliği siz silene kadar geçerli olması için aşağıdaki komut kullanılır.
+
+```sh
+sudo nano /etc/bash.bashrc
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/08.png)
+
+<br>
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/09.png)
+
+<br>
+
+Robot.sh programınızın tam dizin adresini aşağıdaki dosyanın en alt satırına ekledikten sonra ctrl + x tuş kombinasyonunu kullanarak y tuşuna basıp enter tuşu ile kaydet diyerek pencereyi kapatabilirsiniz.
+
+```
+PATH="/home/kali/Documents/Linux/Ubuntu/Debian":$PATH
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/10.png)
+
+<br>
+
+Yukarıdaki adımları tamamladıktan sonra PATH Environment Variables üzerinden dizin adresinin eklendiğini görmek için aşağıdaki komut kullanılır. Yaptığınız değişikliğin geçerli olabilmesi için bilgisayarınızı yeniden başlatmanız gerekiyor.
+
+```sh
+sudo echo $PATH
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/11.png)
+
+<br>
+
+Programı çalıştırmak için aşağıdaki komut kullanılır.
+
+```sh
+Robot.sh
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/12.png)
+
+<br>
+
+Yukarıdaki programı çalıştırabilmeniz için ilk öncelikle Robot.sh dosyasına çalıştırma yetkisi vermeniz gerekiyor. Programı çalıştırmak için aşağıdaki komut kullanılır.
+
+```sh
+sudo chmod +x Robot.sh
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/13.png)
+
+<br>
+
+Programı çalıştırmak için aşağıdaki komut kullanılır.
+
+```sh
+Robot.sh
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/14.png)
+
+<br>
+
+Böylelikle Robot.sh programını başarılı bir şekilde çalıştığını görmeniz gerekiyor.
+
+<br>
+
+Ayrıca sistemde bulunan tüm Environment Variables listeleme işlemi için aşağıdaki komut kullanılır.
+
+```sh
+printenv
+```
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/15.png)
+
+<br>
+
+![Environment Variables Nasıl Yapılır?](https://raw.githubusercontent.com/caglargokcen/kali-linux/master/images/environment-variables/16.png)
