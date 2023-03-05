@@ -9,43 +9,43 @@ Kali Linux
 <br>
 <br>
 
-- [[#Root Password Recovery Nasıl Yapılır?]]
-- [[#File Operations Nasıl Yapılır?]]
-- [[#File Archiving Nasıl Yapılır?]]
-- [[#Directory Operations Nasıl Yapılır?]]
-- [[#File and Directory Permission Management Nasıl Yapılır?]]
-- [[#PAM Nedir?]]
-- [[#PAM Nasıl Yapılır?]]
-- [[#User Management Nasıl Yapılır?]]
-- [[#Group Management Nasıl Yapılır?]]
-- [[#Removing User From Group Nasıl Yapılır?]]
-- [[#Delete Group Nasıl Yapılır?]]
-- [[#Delete User Nasıl Yapılır?]]
-- [[#Network Management Nedir?]]
-- [[#Network Management Nasıl Yapılır?]]
-- [[#Static IP Nedir?]]
-- [[#Static IP Assignment Nasıl Yapılır?]]
-- [[#Dynamic IP Nedir?]]
-- [[#Dynamic IP Assignment Nasıl Yapılır?]]
-- [[#Nginx Nedir?]]
-- [[#Nginx Installation Nasıl Yapılır?]]
-- [[#SSH Nedir?]]
-- [[#Encrypted Connection with SSH Nasıl Yapılır?]]
-- [[#SSH Copy ID Nedir?]]
-- [[#Passwordless Connection with SSH Copy ID Nasıl Yapılır?]]
-- [[#Cron Nedir?]]
-- [[#Rsync Nedir?]]
-- [[#Passwordless Automatic File Copy with Cron-Rsync Nasıl Yapılır?]]
-- [[#LVM Nedir?]]
-- [[#Commands Used in LVM and Their Tasks Nedir?]]
-- [[#LV Nasıl Oluşturulur?]]
-- [[#CIFS Protokolü Nedir?]]
-- [[#NFS Protokolü Nedir?]]
-- [[#File Sharing Between Kali Linux and Windows Nasıl Yapılır?]]
-- [[#Process Management Nedir?]]
-- [[#Process Management Nasıl Yapılır?]]
-- [[#Environment Variables Nedir?]]
-- [[#Environment Variables Nasıl Yapılır?]]
+- [Root Password Recovery Nasıl Yapılır?](#root-password-recovery-nasıl-yapılır)
+- [File Operations Nasıl Yapılır?](#file-operations-nasıl-yapılır)
+- [File Archiving Nasıl Yapılır?](#file-archiving-nasıl-yapılır)
+- [Directory Operations Nasıl Yapılır?](#directory-operations-nasıl-yapılır)
+- [File and Directory Permission Management Nasıl Yapılır?](#file-and-directory-permission-management-nasıl-yapılır)
+- [PAM Nedir?](#pam-nedir)
+- [PAM Nasıl Yapılır?](#pam-nasıl-yapılır)
+- [User Management Nasıl Yapılır?](#user-management-nasıl-yapılır)
+- [Group Management Nasıl Yapılır?](#group-management-nasıl-yapılır)
+- [Removing User From Group Nasıl Yapılır?](#removing-user-from-group-nasıl-yapılır)
+- [Delete Group Nasıl Yapılır?](#delete-group-nasıl-yapılır)
+- [Delete User Nasıl Yapılır?](#delete-user-nasıl-yapılır)
+- [Network Management Nedir?](#network-management-nedir)
+- [Network Management Nasıl Yapılır?](#network-management-nasıl-yapılır)
+- [Static IP Nedir?](#static-ip-nedir)
+- [Static IP Assignment Nasıl Yapılır?](#static-ip-assignment-nasıl-yapılır)
+- [Dynamic IP Nedir?](#dynamic-ip-nedir)
+- [Dynamic IP Assignment Nasıl Yapılır?](#dynamic-ip-assignment-nasıl-yapılır)
+- [Nginx Nedir?](#nginx-nedir)
+- [Nginx Installation Nasıl Yapılır?](#nginx-installation-nasıl-yapılır)
+- [SSH Nedir?](#ssh-nedir)
+- [Encrypted Connection with SSH Nasıl Yapılır?](#encrypted-connection-with-ssh-nasıl-yapılır)
+- [SSH Copy ID Nedir?](#ssh-copy-id-nedir)
+- [Passwordless Connection with SSH Copy ID Nasıl Yapılır?](#passwordless-connection-with-ssh-copy-id-nasıl-yapılır)
+- [Cron Nedir?](#cron-nedir)
+- [Rsync Nedir?](#rsync-nedir)
+- [Passwordless Automatic File Copy with Cron-Rsync Nasıl Yapılır?](#passwordless-automatic-file-copy-with-cron-rsync-nasıl-yapılır)
+- [LVM Nedir?](#lvm-nedir)
+- [Commands Used in LVM and Their Tasks Nedir?](#commands-used-in-lvm-and-their-tasks-nedir)
+- [LV Nasıl Oluşturulur?](#lv-nasıl-oluşturulur)
+- [CIFS Protokolü Nedir?](#cifs-protokolü-nedir)
+- [NFS Protokolü Nedir?](#nfs-protokolü-nedir)
+- [File Sharing Between Kali Linux and Windows Nasıl Yapılır?](#file-sharing-between-kali-linux-and-windows-nasıl-yapılır)
+- [Process Management Nedir?](#process-management-nedir)
+- [Process Management Nasıl Yapılır?](#process-management-nasıl-yapılır)
+- [Environment Variables Nedir?](#environment-variables-nedir)
+- [Environment Variables Nasıl Yapılır?](#environment-variables-nasıl-yapılır)
 
 <br>
 <br>
