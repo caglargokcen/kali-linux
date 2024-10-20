@@ -18,7 +18,7 @@ Projenin amacı Kali Linux'un temel işlevlerini ve yönetim araçlarını kulla
 
 <br>
 
-Projenin sonunda Kali Linux'un yönetim yetenekleri hakkında kapsamlı bir bilgi edinecek ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız.
+Projenin sonunda Kali Linux'un yönetim yetenekleri hakkında kapsamlı bilgi sahibi olacak ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız.
 
 <br>
 
