@@ -10,15 +10,15 @@ Kali Linux
 
 <br>
 
-Bu proje Kali Linux işletim sistemi üzerinde çeşitli yönetim ve konfigürasyon süreçlerini kapsamaktadır.
+Kali Linux işletim sistemi üzerinde çeşitli yönetim ve konfigürasyon süreçlerini kapsamaktadır.
 
 <br>
 
-Projenin amacı Kali Linux'un temel işlevlerini ve yönetim araçlarını kullanarak sistem yöneticiliği becerilerinizi geliştirmektir.
+Kali Linux'un temel işlevlerini ve yönetim araçlarını kullanarak sistem yöneticiliği becerilerinizi geliştirmektir.
 
 <br>
 
-Projenin sonunda Kali Linux'un yönetim yetenekleri hakkında kapsamlı bilgi sahibi olacak ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız.
+Kali Linux'un yönetim yetenekleri hakkında kapsamlı bilgi sahibi olacak ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız.
 
 <br>
 
