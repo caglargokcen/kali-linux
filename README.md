@@ -18,7 +18,7 @@ Kali Linux'un temel işlevlerini ve yönetim araçlarını kullanarak sistem yö
 
 <br>
 
-Kali Linux'un yönetim yetenekleri hakkında kapsamlı bilgi sahibi olacak ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız.
+Kali Linux'un yönetim yetenekleri hakkında kapsamlı bilgi sahibi olacak ve sistem yönetimi becerilerinizi geliştirme fırsatı bulacaksınız
 
 <br>
 
